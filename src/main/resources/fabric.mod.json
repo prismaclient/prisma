@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "prisma",
+  "version": "1.0",
+  "name": "Prisma",
+  "description": "A fabric utility mod aimed at anarchy servers.",
+  "authors": [
+    "AquarDev"
+  ],
+  "environment": "*",
+  "mixins": [
+    "prisma.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.9",
+    "minecraft": "1.18.2"
+  }
+}
